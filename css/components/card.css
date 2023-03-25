@@ -1,0 +1,38 @@
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.3em;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.card-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-top-left-radius: calc(0.3em - 1px);
+    border-top-right-radius: calc(0.3em - 1px);
+}
+
+.card .card-body {
+    padding: 1.2em;
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin-bottom: 0.25em;   
+}
+
+.card-subtitle {
+    font-size: 0.95em;
+    font-weight: 500;
+    margin-bottom: 0.75em;
+    color: var(--light-gray);
+}
+
+.card-text {
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+

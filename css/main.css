@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@400;700&display=swap);
+@import url(layouts/flexbox.css);
+@import url(layouts/grid.css);
+@import url(components/container.css);
+@import url(components/navbar.css);
+@import url(components/card.css);
+@import url(components/button.css);
+@import url(components/form.css);
+@import url(components/list.css);
+@import url(utilities/space.css);
+@import url(utilities/size.css);
+@import url(utilities/color.css);
+@import url(utilities/display.css);
+@import url(utilities/typography.css);
+
+:root {  
+    --white: #fff;
+    --light: #fcf7f7;
+    --black: #000;
+    --dark: #363535;
+    --light-gray: #756d6d;
+    --primary-200: #2f58cd;
+    --primary-400: #4e31aa;
+    --primary-600: #3a1078;
+    --secondary-200: #bdcdd6;
+    --secondary-400: #93bfcf;
+    --secondary-600: #6096b4;
+    --success-200: #82cd47;
+    --success-400: #54b435;
+    --success-600: #379237;
+    --danger-200: #ef5350;
+    --danger-400: #e53935;
+    --danger-600: #c62828;
+    --warning-200: #ffA726;
+    --warning-400: #fb8c00;
+    --warning-600: #ef6c00;
+    --custom-font-size-init: 2.8em; 
+    --size-init: 25%;
+    --space-init: 0.6em;
+    --col-w-1x: calc(1 / 12 * 100%);
+    --col-w-2x: calc(2 * var(--col-w-1x));
+    --col-w-3x: calc(3 * var(--col-w-1x));
+    --col-w-4x: calc(4 * var(--col-w-1x));
+    --col-w-5x: calc(5 * var(--col-w-1x));
+    --col-w-6x: calc(6 * var(--col-w-1x));
+    --col-w-7x: calc(7 * var(--col-w-1x));
+    --col-w-8x: calc(8 * var(--col-w-1x));
+    --col-w-9x: calc(9 * var(--col-w-1x));
+    --col-w-10x: calc(10 * var(--col-w-1x));
+    --col-w-11x: calc(11 * var(--col-w-1x));
+    --col-w-12x: calc(12 * var(--col-w-1x));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+hr {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+
+/* Blog list page */
+.blog-title {
+    font-size: 1.8em;
+    margin-bottom: 0.3em;
+}
+
+.blog-content {
+    font-size: 0.95em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.blog-detail {
+    display: flex;
+    align-items: center;
+}
+
+.blog-detail > img {
+    width: 3em;
+    height: 3em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    margin-right: 0.75em;
+}
+
+
+/* Blog details page */
+.blog-detail-title {
+    font-size: 2em;
+}
+
+.blog-detail-content {
+    font-size: 1.1em;
+    line-height: 1.75em;
+    text-align: justify;
+}
+
+.blog-share-links img {
+    width: 1.75em;
+    height: auto;
+    cursor: pointer;
+}
+
+.blog-detail-img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.blog-detail-img-link {
+    display: block;
+    text-decoration: none;
+    font-size: 0.8em;
+    color: var(--primary-200);
+    text-align: center;
+    margin: 0.25em 0;
+}
+
+.blog-detail-subtitle {
+    font-size: 1.5em;
+}
+
+.related-article-author {
+    margin-bottom: 0.4em;
+}
+
+.related-article img {
+    width: 1.75em;
+    height: auto;
+    border-radius: 50%;
+}
+
+.related-article-title {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.author-details-img {
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+}
+
+.author-details-about-name {
+    display: block;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: var(--black);
+    margin-bottom: 0.15em;
+}
+
+.author-details-about {
+    font-size: 0.9em;
+    line-height: 1.4em;
+    color: var(--dark);
+}
+
+
+/* Footer Section */
+.footer-social-icons a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 0.5em;
+}
+
+.footer-social-icons a img {
+    height: 2.25em;
+    width: 2.25em;
+}
+
+.footer-links>a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 0.25em;
+    color: var(--light);
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.footer-links>a:hover {
+    color: var(--secondary-200);
+}
+
+@media (max-width: 761px) {
+    .footer-newsletter > h2 {
+        text-align: center;
+    }
+}
+
+

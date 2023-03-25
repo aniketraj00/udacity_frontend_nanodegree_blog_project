@@ -1,0 +1,162 @@
+.d-block {
+    display: block;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+}
+
+.flex-center-x {
+    justify-content: center;
+}
+
+.flex-center-y {
+    align-items: center;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-r {
+    flex-wrap: wrap-reverse;
+}
+
+@media (min-width: 375px) {
+    .d-xs-block {
+        display: block;
+    }
+    
+    .d-xs-inline {
+        display: inline;
+    }
+
+    .d-xs-inline-block {
+        display: inline-block;
+    }
+
+    .d-xs-flex {
+        display: flex;
+    }
+
+    .d-xs-none {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .d-sm-block {
+        display: block;
+    }
+
+    .d-sm-inline {
+        display: inline;
+    }
+
+    .d-sm-inline-block {
+        display: inline-block;
+    }
+
+    .d-sm-flex {
+        display: flex;
+    }
+
+    .d-sm-none {
+        display: none;
+    }
+}
+
+@media (min-width: 761px) {
+   .d-md-block {
+        display: block;
+    }
+    
+    .d-md-inline {
+        display: inline;
+    }
+
+    .d-md-inline-block {
+        display: inline-block;
+    }
+
+    .d-md-flex {
+        display: flex;
+    }
+
+    .d-md-none {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .d-lg-block {
+        display: block;
+    }
+
+    .d-lg-inline {
+        display: inline;
+    }
+
+    .d-lg-inline-block {
+        display: inline-block;
+    }
+
+    .d-lg-flex {
+        display: flex;
+    }
+
+    .d-lg-none {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {
+    .d-xl-block {
+        display: block;
+    }
+
+    .d-xl-inline {
+        display: inline;
+    }
+
+    .d-xl-inline-block {
+        display: inline-block;
+    }
+
+    .d-xl-flex {
+        display: flex;
+    }
+
+    .d-xl-none {
+        display: none;
+    }
+}
