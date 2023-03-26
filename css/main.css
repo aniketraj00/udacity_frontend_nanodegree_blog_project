@@ -114,11 +114,14 @@ hr {
 
 .blog-detail-img-link {
     display: block;
-    text-decoration: none;
     font-size: 0.8em;
-    color: var(--primary-200);
     text-align: center;
-    margin: 0.25em 0;
+    margin: 0.75em 0;
+}
+
+.blog-detail-img-link > a {
+    text-decoration: none;
+    margin-left: 0.25em;
 }
 
 .blog-detail-subtitle {
